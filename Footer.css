@@ -1,0 +1,42 @@
+footer {
+    position: relative; 
+    bottom: 0px; 
+    width: 100%; 
+    background-color: rgba(245, 128, 37, 0.85);
+    box-sizing: border-box;
+    padding: 35px 25px 25px 25px; 
+}
+.main-content { 
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+.first-box {
+    width: 25%;
+}
+.center-box {
+    width: 50%; 
+}
+.third-box {
+    width: 25%; 
+}
+.CNH-logo {
+    width: 100%;
+}
+.footer-title {
+    font-size: 1.35em;
+}
+button {
+    background-color: transparent;
+    border: none;
+}
+.footer-title a { 
+    text-decoration: none;
+    font-family: 'Nunito', sans-serif;
+    color: white;
+}
+.footer-title a:hover {
+    opacity: 0.5;
+}
+

@@ -1,0 +1,104 @@
+* {
+    margin: 0;  
+    padding: 0; 
+    box-sizing: border-box;
+}
+body { 
+    font-family: 'Nunito', sans-serif;
+}
+.GOM {
+    background: linear-gradient( rgba(245, 128, 37, 0.70) 55%, rgba(241, 241, 241, 0.85) 45%);  
+    background: -webkit-linear-gradient(rgba(245, 128, 37, 0.70) 55%, rgba(241, 241, 241, 0.85) 45%);
+    background: -moz-linear-gradient( rgba(245, 128, 37, 0.70) 55%, rgba(241, 241, 241, 0.85) 45%);
+    background: -o-linear-gradient(rgba(245, 128, 37, 0.70) 55%, rgba(241, 241, 241, 0.85) 45%);
+    background: -ms-linear-gradient(rgba(245, 128, 37, 0.70) 55%, rgba(241, 241, 241, 0.85) 45%);
+
+    padding: 30px; 
+}
+.GOM-container-June { 
+    padding: 15px; 
+}
+.GOM-title {
+    width: 35%; 
+    margin: auto; 
+    text-align: center;
+    border-radius: 15px;
+    box-shadow: 5px 5px 2.5px rgb(100, 100, 100);
+    background-color: rgba(241, 241, 241, 0.85);
+}
+.GOM-space {
+    padding: 15px;
+}
+.GOM-School { 
+    display: flex;  
+    justify-content: space-around;
+    align-items: center;
+    margin: auto; 
+    margin-left: 2.5em; 
+    width: 60%; 
+    background-color: #ffffff; 
+    border-radius: 25px; 
+    box-shadow: 5px 5px 2.5px rgb(124, 124, 124);
+    padding: 0.75em;
+}
+.message-content {
+    padding: 1.2em; 
+}
+.school-img { 
+    width: 35%; 
+    border-radius: 25px;
+}
+.GOM-Officer { 
+    display: flex;  
+    justify-content: space-around;
+    align-items: center;
+    margin: auto; 
+    margin-right: 2.5em; 
+    width: 60%; 
+    background-color: #ffffff; 
+    border-radius: 25px; 
+    box-shadow: 5px 5px 2.5px rgb(124, 124, 124);
+    padding: 0.75em;
+}
+.officer-img { 
+    width: 35%; 
+    border-radius: 25px;
+}
+.GOM-Member{ 
+    display: flex;  
+    justify-content: space-around;
+    align-items: center;
+    margin: auto; 
+    margin-left: 2.5em; 
+    width: 60%; 
+    /* background-color: rgb(243, 243, 243); */
+    background-color: #ffffff; 
+    border-radius: 25px; 
+    box-shadow: 5px 5px 2.5px rgb(124, 124, 124);
+    padding: 0.75em;
+}
+.member-img {
+    width: 35%;  
+    border-radius: 25px; 
+}
+@media(max-width: 768px) {
+    .GOM-title {
+        width: 100%; 
+        font-size: 0.8em;   
+    }
+    .GOM {
+        padding: 10px;
+    }
+    .GOM-School, .GOM-Officer, .GOM-Member{
+       width: 100%;
+       margin: auto;
+       font-size: 0.8em;
+       padding: 0.5em;
+       display: flex;
+       flex-direction: column;
+    }
+    .school-img, .officer-img, .member-img {
+        width: 50%;
+    }
+ 
+ }

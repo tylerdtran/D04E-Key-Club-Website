@@ -1,0 +1,52 @@
+* {
+    margin:0; 
+    padding: 0; 
+    box-sizing: border-box; 
+}
+body {
+    font-size: 16px;
+}
+.Spirit-title-container {
+    background-color: rgba(245, 128, 37, 0.70);
+    padding: 1.2em;
+    font-size: 0.8em;
+}
+.Spirit-title {
+    width: 25%;
+    margin: auto;
+    text-align: center;
+    background-color: rgba(241, 241, 241, 0.85); 
+    box-shadow: 5px 5px 2.5px #000;
+    border-radius: 15px; 
+}
+.Spirit-title a { 
+    color: #000; 
+    text-decoration: none;
+}
+.frame-container { 
+    background: linear-gradient( rgba(245, 128, 37, 0.70) 60%, rgba(241, 241, 241, 0.85) 40%);  
+   background: -webkit-linear-gradient(rgba(245, 128, 37, 0.70) 60%, rgba(241, 241, 241, 0.85) 40%);
+   background: -moz-linear-gradient( rgba(245, 128, 37, 0.70) 60%, rgba(241, 241, 241, 0.85) 40%);
+   background: -o-linear-gradient( rgba(245, 128, 37, 0.70) 60%, rgba(241, 241, 241, 0.85) 40%);
+   background: -ms-linear-gradient(rgba(245, 128, 37, 0.70) 60%, rgba(241, 241, 241, 0.85) 40%);
+   padding: 1.5em;
+}
+/* .frame {
+    background-color: white;
+    border-radius: 15px;
+    text-align: center;
+    margin: auto;
+    width: 55%;
+    padding: 1.2em 0em;
+} */
+iframe { 
+    width: 100%;
+}
+@media screen and (max-width:768px){
+    .Spirit-title {
+        width: 90%;
+    }
+    .frame { 
+        width: 100%;
+    }
+}

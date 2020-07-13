@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="navigation-bar.css">
+    <link rel="stylesheet" href="Upcoming-events.css">
+    <link rel="stylesheet" href="Footer.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <title>Upcoming Events | D04E</title>
+</head>
+<body>
+    <header>
+        <div class="nav-container">
+            <img src="images/Logos-Posters/KC-logo-2.png" alt="key club logo" class="logo" width="100" height="100">
+            <div class="Website-Name">
+                <h1 class="title"> Division 4 East Goldfishes</h1>
+            </div>
+            <nav class="nav-bar" id="nav-bar">
+                <ul class="main-nav" id="main-nav">
+                    <li><a href="index.html">Home</a></li> <!--links to keyclub (about)-->
+                    <li class="has-submenu"><a href="#">Events </a><a href="#"><i class="fa fa-caret-down" aria-hidden="true"></i></a>
+                        <ul class="submenu">
+                            <li><a href="Upcoming-events.html">Upcoming Events</a></li>
+                            <li><a href="Current-Service.html">Current Service Events</a></li>
+                            <li><a href="Service-Recaps.html">Service Event Recaps</a></li>
+                            <li><a href="Fundraiser.html">Fundraisers</a></li>
+                            <li><a href="https://docs.google.com/forms/d/e/1FAIpQLSe1sHuhU3ZOnr-9S6ZJYrrUVJRbJcVVek6lAbfGvm5rDDRHEQ/viewform?usp=sf_link" target="_blank">Service Hours Log</a></li>
+                            <!-- <li><a href="#">Fall Rally</a></li> -->
+                        </ul>
+                    </li>
+                    <li class="has-submenu"><a href="#">DCMs </a><a href="#"><i class="fa fa-caret-down" aria-hidden="true"></i></a>
+                        <ul class="submenu">
+                            <li><a href="DCM-Agendas.html">DCM Agendas</a></li>
+                            <li><a href="DCM-Recap.html">DCM Recaps</a></li>
+                        </ul>
+                    </li>
+                    <li class="has-submenu"><a href="Newsletter.html">Newsletter </a><a href="#"><i class="fa fa-caret-down" aria-hidden="true"></i></a>
+                        <ul class="submenu">
+                            <!-- <li><a href="#">Division Newsletter August</a></li> -->
+                            <li><a href="Newsletters/D04E_DNEWS_07_2021.pdf" target="_blank">Division Newsletter July</a></li>
+                            <li><a href="Newsletters/D04E_DNEWS_06_2021-2.pdf" target="_blank">Division Newsletter June</a></li>
+                            <li><a href="Newsletters/D04E_DNEWS_05_2021-1.pdf" target="_blank">Division Newsletter May</a></li>
+                            <li><a href="Newsletters/D04E_DNEWS_04_1920.pdf" target="_blank">Division Newsletter April</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">Recognition </a><a href="#"><i class="fa fa-caret-down" aria-hidden="true"></i></a>
+                        <ul class="submenu">
+                            <li><a href="LTG.html">Lieutenant Governor</a></li>
+                            <li><a href="DLT.html">Division Leadership Team</a></li>
+                            <li><a href="GOM.html">Goldfishes of the Month</a></li>
+                            <!-- <li><a href="#">Contests</a></li> -->
+                        </ul>
+                    </li>
+                    <li><a href="#">Resources </a><a href="#"><i class="fa fa-caret-down" aria-hidden="true"></i></a>
+                        <ul class="submenu">
+                            <li><a href="Presidents.html">Presidents</a></li>
+                            <li><a href="Vice-presidents.html">Vice Presidents</a></li>
+                            <li><a href="Secretary.html">Secretaries</a></li>
+                            <li><a href="Treasurers.html">Treasurers</a></li>
+                            <li><a href="Event-Coordinators.html">Event Coordinators</a></li>
+                            <li><a href="Bulletin-Editors.html">Bulletin Editors</a></li>
+                            <li><a href="Members.html">Members</a></li>
+                            <li><a href="Applications.html">Spirit Team Applications</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="About.html">About </a><a href="#"><i class="fa fa-caret-down" aria-hidden="true"></i></a>
+                        <ul class="submenu">
+                            <li><a href="contact.html">Contacts</a></li>
+                            <li><a href="https://docs.google.com/forms/d/e/1FAIpQLSc0vHHnes7HljqPsP7do-pnM7ij1hoG-NWW7CqVWwmkpf9Geg/viewform?usp=sf_link" target="_blank">Club Visitation Form</a></li>
+                            <li><a href="https://docs.google.com/forms/d/e/1FAIpQLScAYBQwVOrPYGS9KrkP7r6bm7m1Eoj7mHfZzhGVzO1ynPA4VA/viewform?usp=sf_link" target="_blank">Survey Suggestion Form</a></li>
+                            <li><a href="https://linktr.ee/d04egoldfish" target="_blank">Division Linktree</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
+            <div class="menu-btn navbar-toggle" id="js-navbar-toggle">
+                <div class="menu-btn_burger"></div>
+            </div>
+            <script src="nav-bar.js"></script>
+        </div>
+    </header>
+
+    <div>
+        <div class="Service-title-container">
+            <div class="Service-title" data-aos="fade-down">
+                <h1>Upcoming Events</h1>
+            </div>
+        </div>
+    </div>
+
+
+    <div>
+        <div class="current-service-1">
+            <div class="service-container" data-aos="fade-up">
+                <div class="message-content">   
+                    <h1>July DCM</h1>
+                    <p>
+                    Sign up for the upcoming Division Council Meeting on July 18th! Join us in playing games like Kahoot and Guess Who? The meeting will take place via Zoom. To RSVP sign up via the google form <a href="https://docs.google.com/forms/d/e/1FAIpQLSfCqq_sC5ZeOWBeIBswsDJG19p-ySh_Ayu85x0AQZM9-5Mp3g/viewform?usp=sf_link" target="_blank">here</a>!!
+                    </p>
+                </div>
+                <img src="images/Logos-Posters/July-DCM-Vertical.jpg" alt="July DCM" id="Color-img">
+            </div>
+            <div class="iframe">
+                <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfCqq_sC5ZeOWBeIBswsDJG19p-ySh_Ayu85x0AQZM9-5Mp3g/viewform?embedded=true" width="640" height="600" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+            </div>
+        </div>
+    </div>
+
+    
+
+    <footer>
+        <div class="main-content">
+            <div class="first-box">
+                <button class="footer-button"><h2 class="footer-title"><a href="contact.html">Contact</a></h2></button>
+            </div>
+            <div class="center-box">
+                <img src="images/Logos-Posters/cnh_keyclub_wordart.png" alt="CNH Word Art" class="CNH-logo">
+            </div>
+            <div class="third-box">
+                <button class="footer-button"><h2 class="footer-title"><a href="About.html">About</a></h2></button>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            offset: 100,
+            duration: 750,
+            ease: 'ease',
+
+        });
+    </script>
+</body>
+</html>

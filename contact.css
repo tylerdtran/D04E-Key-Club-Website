@@ -1,0 +1,171 @@
+* {
+    margin: 0; 
+    padding: 0; 
+    box-sizing: border-box; 
+}
+body {
+    font-size: 16px; 
+}
+.border {
+    padding: 15px;
+    background-color: rgba(241, 241, 241, 0.85);  
+
+}
+.content { 
+    width: 80%;  
+    margin: auto; 
+    padding: 1.2em;
+    border-radius: 25px;
+    background-color:rgba(245, 128, 37, 0.70) ;
+}
+.content-space {
+    padding:15px;
+}
+.ltg { 
+    width: 50%; 
+    background-color: rgba(241, 241, 241, 0.85);
+    margin: auto;
+    border-radius: 15px;
+    padding: 1em;
+    text-align: center;
+}
+.ltg h1 {
+    background-color: rgba(245, 128, 37, 0.70);
+    border-radius: 15px;
+    padding: 0.2em;
+    width: 90%;
+    margin: auto;
+}
+.ltg-contact {
+    padding: 10px;
+}
+.contact { 
+    width: 85%; 
+    margin: auto; 
+    display: flex; 
+    justify-content: space-around;
+}
+.dlt-contact {
+    background-color: rgba(241, 241, 241, 0.85);
+    border-radius: 25px;
+    margin: auto;
+    padding: 10px;
+    width: 90%;
+}
+.dlt-contact h1 { 
+    padding: 10px; 
+    background-color: rgba(245, 128, 37, 0.70);
+    text-align: center;
+    margin: auto;  
+    border-radius: 15px;
+    width: 50%;
+}
+.DLT-contact-1 {
+    padding: 1em;
+}
+.DLT-contact-2 {
+    padding: 1em; 
+}
+
+.Presidents-contact {
+    background-color: rgba(241, 241, 241, 0.85);
+    border-radius: 15px;
+    width: 75%;
+    padding: 1.2em;
+    margin: auto;
+}
+.Presidents-contact h1 {
+    padding: 10px; 
+    background-color: rgba(245, 128, 37, 0.70);
+    border-radius: 15px;
+    text-align: center;
+    margin: auto; 
+    width: 70%; 
+}
+.Pres-contact { 
+    width: 90%; 
+    text-align: center;
+    padding: 1.2em;
+    margin:auto;
+}
+.District-contact {
+    background-color: rgba(241, 241, 241, 0.85);
+    border-radius: 15px;
+    padding: 1.2em;
+    width: 50%;
+    margin: auto;
+}
+.District-contact h1 {
+    background-color: rgba(245, 128, 37, 0.70);
+    border-radius: 15px;
+    padding: 0.2em;
+    text-align: center;
+    margin: auto;  
+}
+.Dis-contact { 
+    padding-top: 1.5em;
+    width: 85%; 
+    text-align: center;
+    margin:auto;
+}
+@media screen and (max-width:768px){
+    .border {
+        font-size: 0.8em;
+    }
+    .content {
+        width: 95%;
+    }
+    .ltg {
+        font-size: 0.8em;
+        width: 80%;
+    }
+    .dlt-contact h1 {
+        padding: 0;
+        width: 90%;
+    }
+    .dlt-contact {
+        width: 95%;
+        padding: 1.2em 0em;
+        font-size: 0.8em;
+    }
+    p {
+        font-size: 1.2em;
+    }
+    h2 {
+        font-size: 1.4em;
+    }
+    .contact {
+        padding: 1.2em;
+        display: flex; 
+        flex-direction: column;
+    }
+    .content { 
+        padding: 0; 
+    }
+    .DLT-contact-1, .DLT-contact-2 {
+        padding: 0;
+        line-height: 1.6em;
+    }
+    .Presidents-contact {
+        font-size: 0.8em;
+        width: 95%;
+    }
+    .Presidents-contact h1 {
+        width:90%;
+    }
+    .District-contact {
+        font-size: 0.8em;
+        width: 95%;
+    }
+    .District-contact h1 {
+        width:90%;
+    }
+}
+@media screen and (max-width:320px) {
+    .Contact-Division {
+        font-size: 0.8em;
+    }
+    .Presidents-contact {
+        padding: 0;
+    }
+}

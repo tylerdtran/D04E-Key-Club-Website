@@ -1,0 +1,163 @@
+* {
+    margin: 0; 
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-size: 16px;
+}
+.Service-title-container {
+    background-color: rgba(245, 128, 37, 0.70);
+    padding: 1.2em;
+}
+.Service-title {
+    width: 25%;
+    margin: auto;
+    text-align: center;
+    background-color: rgba(241, 241, 241, 0.85); 
+    box-shadow: 5px 5px 2.5px #000;
+    border-radius: 15px; 
+}
+.DogToy-Recap {
+    background-color: rgba(241, 241, 241, 0.85);  
+ }
+.DogToy-container {
+     padding: 2em;
+}
+ .February { 
+    width: 100%;
+    background-color: #eee;
+    display:flex; 
+ }
+ .DogToy-title { 
+     width: 50%;
+     text-align: center;
+     margin: auto;
+     box-shadow: 5px 5px 2.5px #000;
+     border-radius: 15px; 
+     background-color: rgba(245, 128, 37, 0.70);
+ }
+ .DogToy-Gallery-container { 
+     width: 90%; 
+     background-color: #fff;
+     max-width: 120rem; 
+     margin: auto; 
+     border-radius: 25px;
+     padding: 1.5rem 1.5rem; 
+ }
+ .DogToy-paragraph { 
+    width: 50%;
+    text-align: center;
+    font-size: 1.2em;
+    padding: 1.2rem;
+    margin: auto;
+    box-shadow: 5px 5px 2.5px #000;
+    border-radius: 15px; 
+    background-color: rgba(245, 128, 37, 0.70);
+}
+ .DogToy-Gallery { 
+     display:grid; 
+     grid-template-columns: 1fr 1fr 1fr 1fr;
+     grid-template-rows: auto;
+     grid-gap: 1.5rem;
+     grid-template-areas:
+                         'img-1 img-2 img-2 img-4'
+                         'img-5 img-5 img-3 img-3';
+ }
+ .DogToy-Gallery a {
+     width: 100%; 
+     height: 25rem; 
+     background-position: center; 
+     background-repeat: no-repeat; 
+     background-size: cover;
+     position: relative; 
+     display: flex;
+     border-radius: 10px;
+     align-items: center;
+     justify-content: center;
+     text-decoration: none;
+ }
+ .DogToy-Gallery a ion-icon {
+     color: rgba(255,255,255,0.6); 
+     font-size: 3rem;
+     position: relative; 
+     z-index: 100;  
+     padding: 1rem 3rem; 
+     border: 2px solid rgba(255,255,255,0.6); 
+     border-radius: .4rem; 
+     opacity: 0;
+     transition: opacity .5s;   
+ 
+ }
+ .DogToy-Gallery a::before {
+     content:''; 
+     position: absolute; 
+     width: 100%; 
+     height: 100%; 
+     top: 0; 
+     left: 0; 
+     border-radius: 10px;
+     background-color: rgba(0,0,0,0.8); 
+     opacity:0; 
+     transition: opacity 0.5s; 
+ }
+ .DogToy-Gallery a:hover ion-icon, 
+ .DogToy-Gallery a:hover::before { 
+    border-radius: 10px;
+     opacity:1;  
+ }
+ .img-1 {
+     grid-area: img-1; 
+     background-image: url("images/Dog-Toy/Dog-Toy-1.jpeg");
+ }
+ .img-2 {
+     grid-area: img-2; 
+
+     background-image: url("images/Dog-Toy/Dog-Toy-2.jpeg");
+ }
+ .img-3 {
+     grid-area: img-3; 
+     background-image: url("images/Dog-Toy/Dog-Toy-3.jpeg");
+ }
+ .img-4 {
+     grid-area: img-4; 
+     background-image: url("images/Dog-Toy/Dog-Toy-4.jpeg");
+ }
+ .img-5 {
+     grid-area: img-5; 
+     background-image: url("images/Dog-Toy/Dog-Toy-5.jpeg");
+ }
+
+ 
+ 
+@media screen and (max-width: 900px) {
+     .DogToy-Gallery { 
+         
+         grid-template-areas:
+                             'img-1 img-1 img-1 img-1'
+                             'img-2 img-2 img-2 img-2'
+                             'img-3 img-3 img-3 img-3'
+                             'img-4 img-4 img-4 img-4'
+                             'img-5 img-5 img-5 img-5';
+     }
+     .DogToy-Gallery a, 
+     .img-1, .img-6{ 
+         min-height:30rem; 
+         height: 30rem;
+     }
+ }
+@media screen and (max-width:768px) {
+    body {
+        font-size: 0.8em;
+    }
+    .Service-title {
+        width: 90%;
+    }
+    .DogToy-title {
+        width: 90%;
+        padding: 1em;
+    }
+    .DogToy-paragraph {
+        width: 90%;
+    }
+}

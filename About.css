@@ -1,0 +1,190 @@
+* {
+    margin: 0;  
+    padding: 0; 
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Nunito', sans-serif;
+    font-size: 16px; 
+}
+.history-container {
+    padding: 15px; 
+    background-color: rgba(241, 241, 241, 0.85);
+}
+.history-title {
+    margin: auto; 
+    width: 50%; 
+    border-radius: 15px;
+    text-align: center;
+    background-color: rgba(245, 128, 37, 0.70);
+    box-shadow: 5px 5px 2.5px #000; 
+}
+
+/* .KC-History {
+    background: linear-gradient(rgba(241, 241, 241, 0.85) 50%, rgba(245, 128, 37, 0.70) 50%);  
+    background: -webkit-linear-gradient(rgba(241, 241, 241, 0.85) 50%, rgba(245, 128, 37, 0.70) 50%);
+    background: -moz-linear-gradient( rgba(241, 241, 241, 0.85) 50%, rgba(245, 128, 37, 0.70) 50%);
+    background: -o-linear-gradient( rgba(241, 241, 241, 0.85) 50%, rgba(245, 128, 37, 0.70) 50%);
+    background: -ms-linear-gradient(rgba(241, 241, 241, 0.85) 50%, rgba(245, 128, 37, 0.70) 50%);
+} */
+.history-space {
+    padding: 25px; 
+}
+.history {
+    background: linear-gradient(rgba(241, 241, 241, 0.85) 50%, rgba(245, 128, 37, 0.70) 50%);  
+    background: -webkit-linear-gradient(rgba(241, 241, 241, 0.85) 50%, rgba(245, 128, 37, 0.70) 50%);
+    background: -moz-linear-gradient( rgba(241, 241, 241, 0.85) 50%, rgba(245, 128, 37, 0.70) 50%);
+    background: -o-linear-gradient( rgba(241, 241, 241, 0.85) 50%, rgba(245, 128, 37, 0.70) 50%);
+    background: -ms-linear-gradient(rgba(241, 241, 241, 0.85) 50%, rgba(245, 128, 37, 0.70) 50%);
+}
+.history-2 {
+    background: linear-gradient( rgba(245, 128, 37, 0.70) 50%, rgba(241, 241, 241, 0.85) 50%);  
+    background: -webkit-linear-gradient(rgba(245, 128, 37, 0.70) 50%, rgba(241, 241, 241, 0.85) 50%);
+    background: -moz-linear-gradient( rgba(245, 128, 37, 0.70) 50%, rgba(241, 241, 241, 0.85) 50%);
+    background: -o-linear-gradient( rgba(245, 128, 37, 0.70) 50%, rgba(241, 241, 241, 0.85) 50%);
+    background: -ms-linear-gradient(rgba(245, 128, 37, 0.70) 50%, rgba(241, 241, 241, 0.85) 50%);
+ 
+}
+.International-content {
+    padding: 1.2em; 
+}
+.International-history { 
+    display: flex;  
+    justify-content: space-around;
+    align-items: center;
+    margin: auto;
+    margin-left: 3em;
+    background-color: white;
+    box-shadow: 5px 5px 2.5px black; 
+    border-radius: 20px;
+    padding: 0.8em;
+    width: 70%;  
+}
+.International-content a { 
+    text-decoration: none;
+    color: #000;
+}
+.International-content a:hover {
+    color: #0000ff;
+}
+.img-link {
+    width: 25%; 
+}
+.CNH-history { 
+    display: flex;  
+    justify-content: space-around;
+    align-items: center;
+    margin: auto;
+    margin-right: 3em;
+    background-color: white;
+    box-shadow: 5px 5px 2.5px black; 
+    border-radius: 20px;
+    padding: 1em;
+    width: 70%;  
+}
+.CNH-content {
+    width: 65%; 
+}
+.CNH-content a { 
+    text-decoration: none;
+    color: #000;
+}
+.CNH-content a:hover {
+    color: #0000ff;
+}
+.img-link-1 {
+    width: 25%; 
+}
+.region-history { 
+    display: flex;  
+    justify-content: space-around;
+    align-items: center;
+    margin: auto;
+    margin-left: 3em;
+    background-color: white;
+    box-shadow: 5px 5px 2.5px black; 
+    border-radius: 20px;
+    padding: 1.5em;
+    width: 70%;  
+}
+.region-content {
+    width: 65%; 
+}
+.img-link-2 {
+    width: 25%;
+}
+.region-logo {
+    border-radius: 20px;
+}
+.region-history {
+    border-radius: 25px;
+}
+.division-history { 
+    display: flex;  
+    justify-content: space-around;
+    align-items: center;
+    margin: auto;
+    margin-right: 3em;
+    background-color: white;
+    box-shadow: 5px 5px 2.5px black; 
+    border-radius: 20px;
+    padding: 1.2em;
+    width: 70%;  
+}
+.division-content {
+    width: 65%; 
+}
+.division-content a { 
+    text-decoration: none;
+    color: #000;
+}
+.division-content a:hover {
+    color: #0000ff;
+}
+.img-link-3 {
+    width: 25%;
+}
+.division-logo {
+    border-radius: 20px;
+}
+
+@media(max-width: 768px) {
+    .history-title {
+        width: 90%;
+        font-size: 0.8em;
+    }
+    .International-content, .CNH-content, .region-content, .division-content {
+       font-size: 0.8em;
+       padding: 0.8em;
+       width: 100%;
+    }
+    .history-space {
+        padding: 15px;
+    }
+    
+    .KC-int-logo, .CNH-logo, .region-logo, .division-logo {
+       width: 100%;
+
+    }
+    .third-container {
+       flex-direction: column;
+       justify-content: space-between;
+       padding: 0em;
+    }
+    
+    .International-history, .CNH-history, .region-history, .division-history {
+        width: 90%;
+        display: flex; 
+        flex-direction: column;
+        margin:auto;
+    } 
+    .img-link, .img-link-1, .img-link-2, .img-link-3 {
+        width: 50%;
+    }
+ } 
+
+ @media(max-width: 320px) {
+    .history-space {
+        padding: 10px; 
+    }
+ }

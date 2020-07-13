@@ -1,0 +1,547 @@
+* { 
+    margin: 0;  
+    padding: 0; 
+    box-sizing: border-box;  
+}
+body {
+    font-family: 'Nunito', sans-serif;
+    font-size: 16px; 
+    text-align: center;
+}
+
+.meet-DLT {
+    background-color: rgba(241, 241, 241, 0.85);
+    padding: 1.2em;
+}
+.DLT-title { 
+    background-color: rgba(245, 128, 37, 0.50);
+    box-shadow: 5px 5px 2.5px rgb(100, 100, 100); 
+    border-radius: 15px; 
+    text-align: center;
+    width: 55%; 
+    margin: auto;
+}
+@media screen and (max-width: 768px) {
+    .DLT-title {
+        width: 90%;
+    }
+}
+.EA-title {
+    background-color: rgba(245, 128, 37, 0.50);
+    box-shadow: 5px 5px 2.5px rgb(100, 100, 100); 
+    border-radius: 15px; 
+    text-align: center;
+    width: 35%; 
+    margin: auto;
+}
+.DLT-space {
+    padding: 15px;
+}
+.message-content-DLT {
+    padding: 1em;
+}
+.DLT-img {
+    width:35%; 
+    border-radius: 25px; 
+}
+
+/*Executive Assistant CSS*/
+.EA {
+    background: linear-gradient( 115deg, rgba(245, 128, 37, 0.70) 50%, rgba(241, 241, 241, 0.85) 50%);  
+    background: -webkit-linear-gradient( 115deg, rgba(245, 128, 37, 0.70) 50%, rgba(241, 241, 241, 0.85) 50%);
+    background: -moz-linear-gradient(  115deg, rgba(245, 128, 37, 0.70) 50%, rgba(241, 241, 241, 0.85) 50%);
+    background: -o-linear-gradient(  115deg, rgba(245, 128, 37, 0.70) 50%, rgba(241, 241, 241, 0.85) 50%);
+    background: -ms-linear-gradient( 115deg, rgba(245, 128, 37, 0.70) 50%, rgba(241, 241, 241, 0.85) 50%); 
+}
+.DLT-container-Katelyn {
+    display: flex; 
+    justify-content: space-around; 
+    align-items: center;
+    margin: auto;
+    margin-right: 3em;
+    width: 50%; 
+    background-color: rgb(255, 255, 255);
+    box-shadow: 5px 5px 2.5px rgb(124, 124, 124);
+    border-radius: 25px;
+    padding: 1em; 
+}
+.DLT-container-Kevin {
+    display: flex; 
+    justify-content: space-around; 
+    align-items: center;
+    margin: auto;
+    width: 50%; 
+    background-color: rgb(255, 255, 255);
+    box-shadow: 5px 5px 2.5px rgb(124, 124, 124);
+    border-radius: 25px;
+    padding: 1em; 
+}
+.DLT-container-Nina {
+    display: flex; 
+    justify-content: space-around; 
+    align-items: center;
+    margin: auto;
+    margin-left: 3em;
+    right: 50px; 
+    width: 50%; 
+    background-color: rgb(255, 255, 255);
+    box-shadow: 5px 5px 2.5px rgb(124, 124, 124);
+    border-radius: 25px;
+    padding: 1em; 
+}
+@media screen and (max-width:768px) {
+    .DLT-title { 
+        font-size: 0.8em;
+    }
+    .DLT-img {
+        width: 50%;
+    }
+    .EA-title {
+        width: 70%; 
+        font-size: 0.8em;
+    }
+    .DLT-container-Katelyn, .DLT-container-Kevin, .DLT-container-Nina {
+        font-size: 0.8em;
+        margin: auto;
+        width: 95%; 
+        display: flex;
+        flex-direction: column;
+    }
+
+}
+
+/*Division Historians CSS*/
+.historian-title {
+    background-color: rgba(245, 128, 37, 0.50);
+    box-shadow: 5px 5px 2.5px rgb(100, 100, 100); 
+    border-radius: 15px; 
+    text-align: center;
+    width: 35%; 
+    margin: auto;
+}
+
+.historians {
+    background: linear-gradient( 115deg, rgba(241, 241, 241, 0.85) 50%, rgba(245, 128, 37, 0.70) 50%);  
+    background: -webkit-linear-gradient( 115deg, rgba(241, 241, 241, 0.85) 50%, rgba(245, 128, 37, 0.70) 50%);
+    background: -moz-linear-gradient(  115deg, rgba(241, 241, 241, 0.85) 50%, rgba(245, 128, 37, 0.70) 50%);
+    background: -o-linear-gradient(  115deg, rgba(241, 241, 241, 0.85) 50%, rgba(245, 128, 37, 0.70) 50%);
+    background: -ms-linear-gradient( 115deg, rgba(241, 241, 241, 0.85) 50%, rgba(245, 128, 37, 0.70) 50%);
+
+    padding: 50px; 
+}
+.DLT-container-Kady {
+    display: flex; 
+    justify-content: space-around; 
+    align-items: center;
+    margin: auto;
+    margin-right: 3em; 
+    width: 50%; 
+    background-color: rgb(255, 255, 255);
+    box-shadow: 5px 5px 2.5px rgb(124, 124, 124);
+    border-radius: 25px;
+    padding: 1em; 
+}
+.DLT-container-Rachel {
+    display: flex; 
+    justify-content: space-around; 
+    align-items: center;
+    margin: auto;
+    margin-left: 3em; 
+    width: 50%; 
+    background-color: rgb(255, 255, 255);
+    box-shadow: 5px 5px 2.5px rgb(124, 124, 124);
+    border-radius: 25px;
+    padding: 1em; 
+}
+@media screen and (max-width:768px) {
+    .historian-title {
+        width: 70%; 
+        font-size: 0.8em;
+    }
+    .historians {
+        padding: 25px 0px; 
+    }
+    .DLT-container-Kady, .DLT-container-Rachel {
+        font-size: 0.8em;
+        margin: auto;
+        width: 95%; 
+        display: flex;
+        flex-direction: column;
+    }
+    
+
+}
+/*Division Publicists CSS*/
+.publicist-title {
+    background-color: rgba(245, 128, 37, 0.50);
+    box-shadow: 5px 5px 2.5px rgb(100, 100, 100); 
+    border-radius: 15px; 
+    text-align: center;
+    width: 35%; 
+    margin: auto;
+}
+.publicists {
+    background: linear-gradient( 115deg, rgba(245, 128, 37, 0.70) 50%, rgba(241, 241, 241, 0.85) 50%);  
+    background: -webkit-linear-gradient( 115deg, rgba(245, 128, 37, 0.70) 50%, rgba(241, 241, 241, 0.85) 50%);
+    background: -moz-linear-gradient(  115deg, rgba(245, 128, 37, 0.70) 50%, rgba(241, 241, 241, 0.85) 50%);
+    background: -o-linear-gradient(  115deg, rgba(245, 128, 37, 0.70) 50%, rgba(241, 241, 241, 0.85) 50%);
+    background: -ms-linear-gradient( 115deg, rgba(245, 128, 37, 0.70) 50%, rgba(241, 241, 241, 0.85) 50%); 
+}
+.DLT-container-AudreyShin {
+    display: flex; 
+    justify-content: space-around; 
+    align-items: center;
+    margin: auto;
+    margin-right: 3em;
+    width: 50%; 
+    background-color: rgb(255, 255, 255);
+    box-shadow: 5px 5px 2.5px rgb(124, 124, 124);
+    border-radius: 25px;
+    padding: 1em; 
+}
+.DLT-container-Gillian {
+    display: flex; 
+    justify-content: space-around; 
+    align-items: center;
+    margin: auto;
+    width: 50%; 
+    background-color: rgb(255, 255, 255);
+    box-shadow: 5px 5px 2.5px rgb(124, 124, 124);
+    border-radius: 25px;
+    padding: 1em; 
+}
+.DLT-container-AudreyVu {
+    display: flex; 
+    justify-content: space-around; 
+    align-items: center;
+    margin: auto;
+    margin-left: 3em;
+    right: 50px; 
+    width: 50%; 
+    background-color: rgb(255, 255, 255);
+    box-shadow: 5px 5px 2.5px rgb(124, 124, 124);
+    border-radius: 25px;
+    padding: 1em; 
+}
+
+@media screen and (max-width:768px) {
+    .publicist-title {
+        width: 70%; 
+        font-size: 0.8em;
+    }
+    .publicists{
+        padding: 25px 0px; 
+    }
+    .DLT-container-AudreyShin, .DLT-container-Gillian, .DLT-container-AudreyVu {
+        font-size: 0.8em;
+        margin: auto;
+        width: 95%; 
+        display: flex;
+        flex-direction: column;
+    }
+
+}
+
+
+/*Division News Editor*/
+.DNE-title { 
+    background-color: rgba(245, 128, 37, 0.50);
+    box-shadow: 5px 5px 2.5px rgb(100, 100, 100); 
+    border-radius: 15px; 
+    text-align: center;
+    width: 75%; 
+    margin: auto;
+}
+.DLT-container-Amber {
+    display: flex; 
+    justify-content: space-around; 
+    align-items: center;
+    width: 100%; 
+    background-color: rgb(255, 255, 255);
+    box-shadow: 5px 5px 2.5px rgb(124, 124, 124);
+    border-radius: 25px;
+    padding: 1em; 
+    margin:auto;
+}
+.DNE {
+    width: 60%; 
+    margin: auto; 
+    margin-right: 3em;
+}
+.message-content-DLT a {
+    color: black;
+}
+.message-content-DLT a:hover {
+    color: blue;
+}
+
+/*Division Tech Editor*/ 
+.DTE-title { 
+    background-color: rgb(243,185,139); 
+    box-shadow: 5px 5px 2.5px rgb(100, 100, 100); 
+    border-radius: 15px; 
+    text-align: center;
+    width: 75%; 
+    margin: auto;
+}
+.DLT-container-TylerTran {
+    display: flex; 
+    justify-content: space-around; 
+    align-items: center;
+    width: 100%; 
+    background-color: rgb(255, 255, 255);
+    box-shadow: 5px 5px 2.5px rgb(124, 124, 124);
+    border-radius: 25px;
+    padding: 1em; 
+    margin:auto;
+}
+
+/*DTE & DNE*/
+.DNE-DTE {
+    background: linear-gradient( 115deg, rgba(241, 241, 241, 0.85) 50%, rgba(245, 128, 37, 0.70) 50%);  
+    background: -webkit-linear-gradient( 115deg, rgba(241, 241, 241, 0.85) 50%, rgba(245, 128, 37, 0.70) 50%);
+    background: -moz-linear-gradient(  115deg, rgba(241, 241, 241, 0.85) 50%, rgba(245, 128, 37, 0.70) 50%);
+    background: -o-linear-gradient(  115deg, rgba(241, 241, 241, 0.85) 50%, rgba(245, 128, 37, 0.70) 50%);
+    background: -ms-linear-gradient( 115deg, rgba(241, 241, 241, 0.85) 50%, rgba(245, 128, 37, 0.70) 50%);
+
+    padding: 50px; 
+}
+.DTE {
+    width: 60%;
+    margin: auto; 
+    margin-left: 3em;
+}
+@media screen and (max-width:768px) {
+    .DTE-title, .DNE-title {
+        width: 95%;
+    }
+    .DNE, .DTE {
+        font-size: 0.8em;
+        width: 95%; 
+        margin: auto; 
+        padding: 25px 0px;
+    } 
+    .DNE-DTE {
+        padding: 25px 0px; 
+    }
+    .DLT-container-Amber, .DLT-container-TylerTran{ 
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+/*Event Coordinators*/
+.EC-title {
+    background-color: rgba(245, 128, 37, 0.50);
+    box-shadow: 5px 5px 2.5px rgb(100, 100, 100); 
+    border-radius: 15px; 
+    text-align: center;
+    width: 35%; 
+    margin: auto;
+}
+.event-coordinators {
+    background: linear-gradient( 115deg, rgba(245, 128, 37, 0.70) 50%, rgba(241, 241, 241, 0.85) 50%);  
+    background: -webkit-linear-gradient( 115deg, rgba(245, 128, 37, 0.70) 50%, rgba(241, 241, 241, 0.85) 50%);
+    background: -moz-linear-gradient(  115deg, rgba(245, 128, 37, 0.70) 50%, rgba(241, 241, 241, 0.85) 50%);
+    background: -o-linear-gradient(  115deg, rgba(245, 128, 37, 0.70) 50%, rgba(241, 241, 241, 0.85) 50%);
+    background: -ms-linear-gradient( 115deg, rgba(245, 128, 37, 0.70) 50%, rgba(241, 241, 241, 0.85) 50%); 
+
+}
+.DLT-container-Suzan {
+    display: flex; 
+    justify-content: space-around; 
+    align-items: center;
+    margin: auto;
+    margin-right: 3em; 
+    width: 50%; 
+    background-color: rgb(255, 255, 255);
+    box-shadow: 5px 5px 2.5px rgb(124, 124, 124);
+    border-radius: 25px;
+    padding: 1em; 
+}
+.DLT-container-Sophia {
+    display: flex; 
+    justify-content: space-around; 
+    align-items: center;
+    margin: auto;
+    margin-left: 3em; 
+    width: 50%; 
+    background-color: rgb(255, 255, 255);
+    box-shadow: 5px 5px 2.5px rgb(124, 124, 124);
+    border-radius: 25px;
+    padding: 1em; 
+} 
+@media screen and (max-width:768px) {
+    .EC-title {
+        width: 70%; 
+        font-size: 0.8em;
+    }
+    .event-coordinators {
+        padding: 25px 0px; 
+    }
+    .DLT-container-Suzan, .DLT-container-Sophia {
+        font-size: 0.8em;
+        margin: auto;
+        width: 95%; 
+        display: flex;
+        flex-direction: column;
+    }
+
+}
+/*Member Recognizer*/
+.MP-title {
+    background-color: rgba(245, 128, 37, 0.50);
+    box-shadow: 5px 5px 2.5px rgb(100, 100, 100); 
+    border-radius: 15px; 
+    text-align: center;
+    width: 35%; 
+    margin: auto;
+}
+.MP {
+    background-color: rgba(245, 128, 37, 0.70);
+
+    padding: 50px; 
+}
+.DLT-container-Parmis {
+    display: flex; 
+    justify-content: space-around; 
+    align-items: center;
+    margin: auto;
+    width: 50%; 
+    background-color: rgb(255, 255, 255);
+    box-shadow: 5px 5px 2.5px rgb(124, 124, 124);
+    border-radius: 25px;
+    padding: 1em; 
+}
+@media screen and (max-width:768px) {
+    .MP-title { 
+        width: 90%; 
+        font-size: 0.8em;
+    }
+    .DLT-container-Parmis  {
+        font-size: 0.8em;
+        width: 95%; 
+        display: flex;
+        flex-direction: column;
+    }
+    .MP {
+        padding: 25px 0px; 
+    }
+}
+
+/*Meet our Head Spirit Coordinators*/
+.SC-title {
+    background-color: rgba(245, 128, 37, 0.50);
+    box-shadow: 5px 5px 2.5px rgb(100, 100, 100); 
+    border-radius: 15px; 
+    text-align: center;
+    width: 40%; 
+    margin: auto;
+}
+.spirit-coordinators {
+    background: linear-gradient( 115deg, rgba(241, 241, 241, 0.85) 50%, rgba(245, 128, 37, 0.70) 50%);  
+    background: -webkit-linear-gradient( 115deg, rgba(241, 241, 241, 0.85) 50%, rgba(245, 128, 37, 0.70) 50%);
+    background: -moz-linear-gradient(  115deg, rgba(241, 241, 241, 0.85) 50%, rgba(245, 128, 37, 0.70) 50%);
+    background: -o-linear-gradient(  115deg, rgba(241, 241, 241, 0.85) 50%, rgba(245, 128, 37, 0.70) 50%);
+    background: -ms-linear-gradient( 115deg, rgba(241, 241, 241, 0.85) 50%, rgba(245, 128, 37, 0.70) 50%);
+}
+.DLT-container-TylerVu {
+    display: flex; 
+    justify-content: space-around; 
+    align-items: center;
+    margin: auto;
+    margin-right: 3em; 
+    width: 50%; 
+    background-color: rgb(255, 255, 255);
+    box-shadow: 5px 5px 2.5px rgb(124, 124, 124);
+    border-radius: 25px;
+    padding: 1em; 
+}
+.DLT-container-Abishta {
+    display: flex; 
+    justify-content: space-around; 
+    align-items: center;
+    margin: auto;
+    margin-left: 3em; 
+    width: 50%; 
+    background-color: rgb(255, 255, 255);
+    box-shadow: 5px 5px 2.5px rgb(124, 124, 124);
+    border-radius: 25px;
+    padding: 1em; 
+}
+@media screen and (max-width:768px) {
+    .SC-title {
+        width: 80%; 
+        font-size: 0.8em;
+    }
+    .spirit-coordinators{
+        padding: 25px 0px; 
+    }
+    .DLT-container-TylerVu, .DLT-container-Abishta {
+        font-size: 0.8em;
+        margin: auto;
+        width: 95%; 
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+/*Fundraising Coordinators */ 
+.FC-title {
+    background-color: rgba(245, 128, 37, 0.50);
+    box-shadow: 5px 5px 2.5px rgb(100, 100, 100); 
+    border-radius: 15px; 
+    text-align: center;
+    width: 45%; 
+    margin: auto;
+}
+.fundraising-coordinators {
+    background: linear-gradient( 115deg, rgba(245, 128, 37, 0.70) 50%, rgba(241, 241, 241, 0.85) 50%);  
+    background: -webkit-linear-gradient( 115deg, rgba(245, 128, 37, 0.70) 50%, rgba(241, 241, 241, 0.85) 50%);
+    background: -moz-linear-gradient(  115deg, rgba(245, 128, 37, 0.70) 50%, rgba(241, 241, 241, 0.85) 50%);
+    background: -o-linear-gradient(  115deg, rgba(245, 128, 37, 0.70) 50%, rgba(241, 241, 241, 0.85) 50%);
+    background: -ms-linear-gradient( 115deg, rgba(245, 128, 37, 0.70) 50%, rgba(241, 241, 241, 0.85) 50%); 
+
+    padding: 50px; 
+}
+.DLT-container-Isabelle {
+    display: flex; 
+    justify-content: space-around; 
+    align-items: center;
+    margin: auto;
+    margin-right: 3em; 
+    width: 50%; 
+    background-color: rgb(255, 255, 255);
+    box-shadow: 5px 5px 2.5px rgb(124, 124, 124);
+    border-radius: 25px;
+    padding: 1em; 
+}
+.DLT-container-Kyle {
+    display: flex; 
+    justify-content: space-around; 
+    align-items: center;
+    margin: auto;
+    margin-left: 3em; 
+    width: 50%; 
+    background-color: rgb(255, 255, 255);
+    box-shadow: 5px 5px 2.5px rgb(124, 124, 124);
+    border-radius: 25px;
+    padding: 1em; 
+}
+@media screen and (max-width:768px) {
+    .FC-title {
+        width: 80%; 
+        font-size: 0.8em;
+    }
+    .fundraising-coordinators{
+        padding: 25px 0px; 
+    }
+    .DLT-container-Isabelle, .DLT-container-Kyle {
+        font-size: 0.8em;
+        margin: auto;
+        width: 95%; 
+        display: flex;
+        flex-direction: column;
+    }
+
+}
