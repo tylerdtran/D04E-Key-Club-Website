@@ -22,6 +22,17 @@
 
  }
   
+ .slider {
+    /* display:block; */
+    position:relative;
+    overflow: hidden;
+    opacity: 1; 
+    height: 80vh;
+    width: 95vw;
+    margin: auto;
+
+ }
+  
  .slide {
     position: absolute;
     top: 0; 
@@ -96,9 +107,6 @@
       background-color: rgba(209, 209, 209, 0.4);
    }
 }
- .content a {
-    text-decoration: none;
- }
  .content h1 {
     color: white; 
  }
@@ -138,6 +146,8 @@ main {
     .slide .content {
         bottom: -300px;
         left: 0; 
+        font-size: 1.15em;
+        height: 25vh; 
         width: 100%;
     }
     .slide.current .content {
@@ -156,36 +166,68 @@ main {
         left: 2em;
     }
  }
-.slide:first-child {
-    background: url('images/Fall-Rally/Fall-Rally3.jpg') no-repeat center center/cover; 
-    background-position: center; 
-    background-size: cover;  
-    background-repeat: no-repeat; 
-    background-attachment: fixed;
- }
-.slide:nth-child(2) {
-    background: url('images/DCMs/February-DCM3.jpg') no-repeat center top/cover;
-    background-position: center; 
-    background-size: cover;  
-    background-repeat: no-repeat; 
-    background-attachment: fixed; 
-}
-.slide:nth-child(3) {
-    background: url('images/Service/craft.JPG') no-repeat center top/cover; 
-    background-position: center; 
-    background-size: cover;  
-    background-repeat: no-repeat; 
-    background-attachment: fixed;
+@media screen and (min-width:768px) {
+   .slide:first-child {
+      background: url('images/Fall-Rally/Fall-Rally3.jpg') no-repeat center center/cover; 
+      background-position: center; 
+      background-size: cover;  
+      background-repeat: no-repeat; 
+      background-attachment: fixed;
+   }
+   .slide:nth-child(2) {
+      background: url('images/DCMs/February-DCM3.jpg') no-repeat center top/cover;
+      background-position: center; 
+      background-size: cover;  
+      background-repeat: no-repeat; 
+      background-attachment: fixed; 
+   }
+   .slide:nth-child(3) {
+      background: url('images/Service/craft.JPG') no-repeat center top/cover; 
+      background-position: center; 
+      background-size: cover;  
+      background-repeat: no-repeat; 
+      background-attachment: fixed;
 
+   }
+   .slide:nth-child(4) {
+      background: url('images/Fall-Rally/Fall-Rally2.jpg') no-repeat center top/cover;  /* DLT in the future */ 
+      background-position: center; 
+      background-size: cover;  
+      background-repeat: no-repeat; 
+      background-attachment: fixed;
+   }
 }
-.slide:nth-child(4) {
-    background: url('images/Fall-Rally/Fall-Rally2.jpg') no-repeat center top/cover;  /* DLT in the future */ 
-    background-position: center; 
-    background-size: cover;  
-    background-repeat: no-repeat; 
-    background-attachment: fixed;
- }
+@media screen and (max-width:768px) {
+   .slide:first-child {
+      background: url('images/DCMs/February-DCM.jpg') no-repeat center center/cover; 
+      background-position: center; 
+      background-size: cover;  
+      background-repeat: no-repeat; 
+      background-attachment: fixed;
+   }
+   .slide:nth-child(2) {
+      background: url('images/Logos-Posters/July-DCM-Vertical.jpg') no-repeat center top/cover;
+      background-position: center; 
+      background-size: cover;  
+      background-repeat: no-repeat; 
+      background-attachment: fixed; 
+   }
+   .slide:nth-child(3) {
+      background: url('images/DCMs/February-DCM3.jpg') no-repeat center top/cover; 
+      background-position: center; 
+      background-size: cover;  
+      background-repeat: no-repeat; 
+      background-attachment: fixed;
 
+   }
+   .slide:nth-child(4) {
+      background: url('images/OTC/OTC14.jpg') no-repeat center top/cover;  /* DLT in the future */ 
+      background-position: center; 
+      background-size: cover;  
+      background-repeat: no-repeat; 
+      background-attachment: fixed;
+   }
+}
 /* LTG Message */ 
 .ltg { 
     font-family: 'Nunito', sans-serif;
