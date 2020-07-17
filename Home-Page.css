@@ -147,7 +147,7 @@ main {
         bottom: -300px;
         left: 0; 
         font-size: 1.15em;
-        height: 35vh; 
+        height: 30vh; 
         width: 100%;
     }
     .slide.current .content {
@@ -202,7 +202,7 @@ main {
       background: url('images/DCMs/February-DCM.jpg') no-repeat center center/cover; 
    }
    .slide:nth-child(2) {
-      background: url('images/Logos-Posters/July-DCM-Vertical.jpg') no-repeat center top/cover;
+      background: url('images/Fall-Rally/Fall-Rally3.jpg') no-repeat center top/cover;
    }
    .slide:nth-child(3) {
       background: url('images/DCMs/February-DCM3.jpg') no-repeat center top/cover; 
