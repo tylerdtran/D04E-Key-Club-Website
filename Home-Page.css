@@ -455,7 +455,7 @@ main {
    .grid-container, #grid-DCM {
       display: grid;
       grid-template-columns: 300px;
-      grid-template-rows: 350px 365px;
+      grid-template-rows: 365px 365px;
       grid-gap: 70px;
    }
    .icon-name {
@@ -469,13 +469,13 @@ main {
    .grid-container-2{
       display: grid;
       grid-template-columns: 300px;
-      grid-template-rows: 350px 350px;
+      grid-template-rows: 365px 365px;
       grid-gap: 70px;
    }
    #grid-DCM {
       display: grid;
       grid-template-columns: 300px;
-      grid-template-rows: 350px;
+      grid-template-rows: 365px;
       grid-gap: 70px;
    }
    .grid-title {
