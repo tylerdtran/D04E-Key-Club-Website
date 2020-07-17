@@ -143,4 +143,10 @@ body {
         padding: 0.5em;
         font-size: 1.15em;
     }
+     .grid-item3 .icon-name {
+         font-size: 0.75em;
+     }
+     .grid-item1 .icon-name { 
+         font-size: 0.75em;
+     } 
  }
