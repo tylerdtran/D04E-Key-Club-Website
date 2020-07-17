@@ -120,12 +120,12 @@ body {
   .grid-container {
      display: grid;
      grid-template-columns: 350px;
-     grid-template-rows: 500px 500px;
+     grid-template-rows: 525px 525px;
      grid-gap: 70px;
   }
   .icon-name {
      font-family: 'Nunito', sans-serif;
-     font-size: 1em;
+     font-size: 0.75em;
   } 
   .icon-description {
      font-family: 'Nunito', sans-serif;
