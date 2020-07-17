@@ -155,7 +155,7 @@ main {
         transition: all 375ms ease-in-out; 
     }
     #photo-2 {
-        top: 35%;
+        top: 50%;
         transition: all 375ms ease-in-out; 
      }
     .slider {
