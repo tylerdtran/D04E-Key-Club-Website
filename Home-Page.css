@@ -154,6 +154,10 @@ main {
         transform: translateY(-325px);
         transition: all 375ms ease-in-out; 
     }
+    #photo-2 {
+        top: 35%;
+        transition: all 375ms ease-in-out; 
+     }
     .slider {
         height: 100vh;
         width: 100vw;
