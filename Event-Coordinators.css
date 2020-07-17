@@ -120,7 +120,7 @@ body {
   .grid-container {
      display: grid;
      grid-template-columns: 350px;
-     grid-template-rows: 525px 525px;
+     grid-template-rows: 540px 540px;
      grid-gap: 70px;
   }
   .icon-name {
