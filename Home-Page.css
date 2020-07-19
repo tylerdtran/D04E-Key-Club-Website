@@ -147,7 +147,7 @@ main {
         bottom: -300px;
         left: 0; 
         font-size: 1.15em;
-        height: 30vh; 
+        height: max-content; 
         width: 100%;
     }
     .slide.current .content {
