@@ -55,6 +55,7 @@ body {
 }
 .message-content {
   padding: 1.2em;
+  text-align: center;
 }
 #Color-img {
   width: 35%;
