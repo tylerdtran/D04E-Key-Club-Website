@@ -456,10 +456,17 @@ main {
 #grid-membership {
    grid-template-columns: 400px;
    grid-template-rows: 450px;
+   background-color: rgba(241, 241, 241, 0.85);
+}
+.grid-title-M{
+   width: 50%;
+}
+.membership {
+   background-color: rgba(241, 241, 241, 0.85);  
 }
 #icon-nomen {
    font-size: 1.0em;
-}
+}  
 
 @media(min-width: 769px) {
    .grid-item:hover .hover-description{
@@ -509,6 +516,9 @@ main {
       width: 90%;
       font-size: 1.25em;
    }
+   #icon-nomen {
+      font-size: 0.8em;
+   }  
    /* .grid-item4 .icon-name {
       font-size: 0.975em;
    } */
