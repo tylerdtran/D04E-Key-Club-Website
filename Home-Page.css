@@ -453,7 +453,13 @@ main {
    display: none; 
    color: rgba(0,0,0,1);
 }
-
+#grid-membership {
+   grid-template-columns: 400px;
+   grid-template-rows: 450px;
+}
+#icon-nomen {
+   font-size: 1.0em;
+}
 
 @media(min-width: 769px) {
    .grid-item:hover .hover-description{
@@ -506,6 +512,12 @@ main {
    /* .grid-item4 .icon-name {
       font-size: 0.975em;
    } */
+   #grid-membership {
+      display: grid;
+      grid-template-columns: 300px;
+      grid-template-rows: 365px;
+      grid-gap: 70px;
+   }
 }
 
 .KC-history {
