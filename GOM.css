@@ -4,7 +4,9 @@
     box-sizing: border-box;
 }
 body { 
-    font-family: 'Nunito', sans-serif;
+    font-family: myriad-pro, sans-serif;
+    font-weight: 300;
+    font-style: normal;
 }
 .GOM {
     background: linear-gradient( rgba(245, 128, 37, 0.70) 55%, rgba(241, 241, 241, 0.85) 45%);  

@@ -33,7 +33,9 @@ button {
 }
 .footer-title a { 
     text-decoration: none;
-    font-family: 'Nunito', sans-serif;
+    font-family: myriad-pro, sans-serif;
+    font-weight: 300;
+    font-style: normal;
     color: white;
 }
 .footer-title a:hover {

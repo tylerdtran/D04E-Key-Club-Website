@@ -4,6 +4,9 @@
     box-sizing: border-box;
 }
 body {
+    font-family: myriad-pro, sans-serif;
+    font-weight: 300;
+    font-style: normal;
     font-size: 16px;
 }
 .Service-title-container {

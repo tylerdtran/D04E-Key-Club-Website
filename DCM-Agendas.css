@@ -4,6 +4,9 @@
     box-sizing: border-box;
 }
 body {
+    font-family: myriad-pro, sans-serif;
+    font-weight: 300;
+    font-style: normal;
     font-size: 16px;
 }
 .agenda {
@@ -30,7 +33,6 @@ body {
     width: 30%;
     margin: auto; 
     text-align: center;
-    font-family: 'Nunito', sans-serif;
     background-color: rgba(245, 128, 37, 0.70);
     border-radius: 15px;
     box-shadow: 5px 5px 2.5px #000;
@@ -39,7 +41,6 @@ body {
     width: 20%;
     margin: auto; 
     text-align: center;
-    font-family: 'Nunito', sans-serif;
     background-color: rgba(245, 128, 37, 0.70);
     border-radius: 15px;
     box-shadow: 5px 5px 2.5px #000;
@@ -64,7 +65,6 @@ body {
     width: 20%;
     margin: auto; 
     text-align: center;
-    font-family: 'Nunito', sans-serif;
     background-color: rgba(245, 128, 37, 0.70);
     border-radius: 15px;
     box-shadow: 5px 5px 2.5px #000;
@@ -77,7 +77,6 @@ body {
     width: 20%;
     margin: auto; 
     text-align: center;
-    font-family: 'Nunito', sans-serif;
     background-color: rgba(245, 128, 37, 0.70);
     border-radius: 15px;
     box-shadow: 5px 5px 2.5px #000;
@@ -89,7 +88,7 @@ body {
     width: 20%;
     margin: auto; 
     text-align: center;
-    font-family: 'Nunito', sans-serif;
+
     background-color: rgba(245, 128, 37, 0.70);
     border-radius: 15px;
     box-shadow: 5px 5px 2.5px #000;
