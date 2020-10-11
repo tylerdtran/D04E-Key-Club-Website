@@ -62,16 +62,13 @@ body {
     color: #000;
 }
 .icon-name {
-    font-family: 'Nunito', sans-serif;
     font-size: 1em;
 } 
 .icon-description {
-    font-family: 'Nunito', sans-serif;
     font-size: 0.8em; 
 }
 .hover-description {
     display: none; 
-    font-family: 'Nunito', sans-serif;
     color: rgba(0,0,0,1);
 }
 .inner-link:hover {
@@ -127,11 +124,9 @@ body {
       grid-gap: 70px;
    }
    .icon-name {
-      font-family: 'Nunito', sans-serif;
       font-size: 1em;
    } 
    .icon-description {
-      font-family: 'Nunito', sans-serif;
       font-size: 0.65em; 
    }
    .grid-title {
