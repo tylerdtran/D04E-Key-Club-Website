@@ -53,7 +53,6 @@ body {
     text-align:center; 
     background-color: rgba(245, 128, 37, 0.50);
     box-shadow: 5px 5px 2.5px rgb(100, 100, 100);
-    font-family: 'Nunito', sans-serif;
     border-radius: 15px; 
     width: 35%; 
  } 
@@ -92,7 +91,6 @@ body {
     text-align:center; 
     background-color: rgba(241, 241, 241, 0.85);
     box-shadow: 5px 5px 2.5px rgb(100, 100, 100);
-    font-family: 'Nunito', sans-serif;
     border-radius: 15px; 
     width: 85%; 
 } 

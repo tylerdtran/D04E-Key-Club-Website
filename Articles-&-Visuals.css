@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: myriad-pro, sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 16px;
+}
+.agenda {
+    background: linear-gradient( rgba(245, 128, 37, 0.70) 55%, rgba(241, 241, 241, 0.85) 45%);  
+    background: -webkit-linear-gradient(rgba(245, 128, 37, 0.70) 55%, rgba(241, 241, 241, 0.85) 45%);
+    background: -moz-linear-gradient( rgba(245, 128, 37, 0.70) 55%, rgba(241, 241, 241, 0.85) 45%);
+    background: -o-linear-gradient( rgba(245, 128, 37, 0.70) 55%, rgba(241, 241, 241, 0.85) 45%);
+    background: -ms-linear-gradient(rgba(245, 128, 37, 0.70) 55%, rgba(241, 241, 241, 0.85) 45%);
+    padding: 1.2em;
+}
+.agenda-1 {
+    background: linear-gradient( rgba(241, 241, 241, 0.85) 55%, rgba(245, 128, 37, 0.70) 45%);  
+    background: -webkit-linear-gradient(rgba(241, 241, 241, 0.85) 55%, rgba(245, 128, 37, 0.70) 45%);
+    background: -moz-linear-gradient( rgba(241, 241, 241, 0.85) 55%, rgba(245, 128, 37, 0.70) 45%);
+    background: -o-linear-gradient( rgba(241, 241, 241, 0.85) 55%, rgba(245, 128, 37, 0.70) 45%);
+    background: -ms-linear-gradient(rgba(241, 241, 241, 0.85) 55%, rgba(245, 128, 37, 0.70) 45%);
+    padding: 1.2em;
+}
+.DCM-title {
+    background-color: rgba(241, 241, 241, 0.85);
+    padding: 1.2em; 
+}
+.DCM-title-content { 
+    width: 30%;
+    margin: auto; 
+    text-align: center;
+    background-color: rgba(245, 128, 37, 0.70);
+    border-radius: 15px;
+    box-shadow: 5px 5px 2.5px #000;
+}
+.July-title {
+    width: 20%;
+    margin: auto; 
+    text-align: center;
+    background-color: rgba(245, 128, 37, 0.70);
+    border-radius: 15px;
+    box-shadow: 5px 5px 2.5px #000;
+}
+.July { 
+    padding: 1.2em;
+}
+.img { 
+    padding: 25px;
+    background-color: #fff;
+    margin: auto;
+    width: 40%; 
+    border-radius: 15px;
+    box-shadow: 5px 5px 2.5px #000;
+}
+.img img { 
+    width: 100%;
+    border-radius: 15px;
+    transition: all 375ms ease-in-out;
+}
+.June-title {
+    width: 20%;
+    margin: auto; 
+    text-align: center;
+    background-color: rgba(245, 128, 37, 0.70);
+    border-radius: 15px;
+    box-shadow: 5px 5px 2.5px #000;
+}
+.May, .June, .July, .August, .September, .October { 
+    padding: 1.2em;
+}
+
+.May-title {
+    width: 20%;
+    margin: auto; 
+    text-align: center;
+    background-color: rgba(245, 128, 37, 0.70);
+    border-radius: 15px;
+    box-shadow: 5px 5px 2.5px #000;
+}
+.img img:hover {
+    transform: scale(1.1);
+}
+.August-title {
+    width: 20%;
+    margin: auto; 
+    text-align: center;
+
+    background-color: rgba(245, 128, 37, 0.70);
+    border-radius: 15px;
+    box-shadow: 5px 5px 2.5px #000;
+}
+.August { 
+    padding: 1.2em;
+}
+@media screen and (max-width: 768px) {
+    body {
+        font-size: 0.8em;
+    }
+    .August-title, .July-title, .May-title, .June-title {
+        width: 50%;
+    }
+    .img { 
+        width: 100%;
+    }
+    .DCM-title-content {
+        width: 60%;
+    }
+}
